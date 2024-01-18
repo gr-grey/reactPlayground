@@ -1,5 +1,6 @@
 import React from 'react'
 import { IconHome, IconDotsVertical, IconHelp, IconShare, IconBrandGithub } from '@tabler/icons-react';
+import '@tabler/core/dist/css/tabler.min.css'
 
 // import './index.css'
 
@@ -13,9 +14,10 @@ const App = () => (
             <a href="https://zhoulab.io/software" className="btn" aria-label="Button">
               <IconDotsVertical /> More </a>
           </div>
-          <div className="position-absolute top-2 start-50 translate-middle-x" style={{ zIndex: 1 }}>
+          <h2 className="page-title" style={{ display: 'inline-block' }}>Sequence Browser </h2>
+          {/* <div className="position-absolute top-2 start-50 translate-middle-x" style={{ zIndex: 1 }}>
             <h2 className="page-title" style={{ display: 'inline-block' }}>Sequence Browser </h2>
-          </div>
+          </div> */}
           <div className="col"></div>
           <div className="col-auto">
             <a href="#" className="btn" aria-label="Button">
